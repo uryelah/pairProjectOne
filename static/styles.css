@@ -1,6 +1,12 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
+    width: 100%;
 }
 
 .flex {
@@ -15,6 +21,18 @@
 
 }
 
+.description
+{
+margin: 0 auto ;
+}
+
+.description h2
+{
+  text-align: center;
+}
+
+
+
 .price
 {
   display: flex;
@@ -25,13 +43,72 @@ flex-shrink: 0;
 flex-grow: 0;
 background-color: pink;
 border: 3px solid black;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a056ca1e6e11354deb6f6928857a10b47c73b82d
 }
 
 #price
 {
 display: flex;
+<<<<<<< HEAD
 width: 600px;
+
+}
+=======
+width: 100%;
+flex-wrap: wrap;
+}
+
+#description {
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+}
+
+.description {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    height: 256px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: gray;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+.footer-links {
+    flex-basis: 100%;
+    right: 0;
+}
+
+#copyright {
+    flex-basis: 100%;
+}
+>>>>>>> a056ca1e6e11354deb6f6928857a10b47c73b82d
+
+#form
+{
+  height: 800px ;
+  padding: 100px;
+  box-sizing: border-box;
+
+}
+
+#form form
+{
+  margin: 0 auto ;
+}
+
+section {
+  min-height: 600px;
 
 }
